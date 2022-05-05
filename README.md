@@ -2,10 +2,15 @@
 
 This is a React app to leave feedback for a product or service.
 
-**[Demo](https://crypto-app-react-01.vercel.app/)**
-
 ----
 
+#### 🍀 How use:
+```bash
+$ npm install
+$ npm run dev
+```
+
+---
 #### 🍀 Screenshots:
 - Main Page (`Dark Mode`):
 ![App Screenshot](assets/images/screen-1.png)
