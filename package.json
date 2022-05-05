@@ -1,0 +1,36 @@
+{
+    "name": "github-finder-app-react",
+    "private": true,
+    "version": "1.0.0",
+    "author": "Alim Nagoev (@unnamedev)",
+    "scripts": {
+        "devVite": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "server": "json-server --watch src/mock/db.json --port 5000",
+        "dev": "concurrently \"npm run server\" \"npm run devVite\""
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.8.0",
+        "axios": "^0.26.1",
+        "concurrently": "^7.1.0",
+        "framer-motion": "^6.2.8",
+        "json-server": "^0.17.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-hook-form": "^7.28.0",
+        "react-icons": "^4.3.1",
+        "react-redux": "^7.2.6",
+        "redux": "^4.1.2",
+        "sass": "^1.49.9",
+        "vite-plugin-static-copy": "^0.4.1"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^1.0.7",
+        "autoprefixer": "^10.4.4",
+        "postcss": "^8.4.12",
+        "tailwindcss": "^3.0.23",
+        "vite": "^2.8.0",
+        "vite-plugin-proxy": "^0.5.0"
+    }
+}
